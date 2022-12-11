@@ -1,0 +1,24 @@
+.container {
+	border: 3px solid #ff0000;
+	/* overflow: hidden;
+	width: 100%; */
+}
+
+.left {
+	width: 33%;
+	/* float: left; */
+    background-color: rgb(147, 218, 218);
+}
+
+.center {
+	width: 33%;
+	/* float: left; */
+    background-color: rgb(231, 149, 226);
+
+}
+
+.right {
+	width: 33%;
+	/* float: right; */
+    background-color: rgb(211, 240, 183);
+}
