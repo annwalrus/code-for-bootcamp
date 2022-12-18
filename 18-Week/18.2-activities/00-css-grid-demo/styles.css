@@ -1,0 +1,18 @@
+.containerGrid {
+    display: grid;
+    background-color: #2196F3;
+    padding: 10px;
+    grid-template-rows: repeat(4,75px);
+    grid-template-columns: repeat(4,75px);
+    justify-content: start;
+
+}
+
+/*some styles to make the container items stand out from the grid and make sure they are a nice, legible size*/ 
+.containerItem{
+    background-color: aqua;
+    margin: 5px 10px;
+    text-align: center;
+    font-size: 50px;
+    /* width: 25px; */
+}

@@ -1,0 +1,17 @@
+.main{
+    background-color: aqua;
+}
+
+/*make the background green when the screen is less than 600px*/
+@media screen and (max-width: 600px) {
+    .main{
+        background-color: rgb(31, 117, 65);
+    }
+}
+/*make the background dark grey when the screen is larger than 1024px*/
+
+@media all and (min-width: 1024px) {
+    .main{
+        background-color: #343434;
+    }
+}
