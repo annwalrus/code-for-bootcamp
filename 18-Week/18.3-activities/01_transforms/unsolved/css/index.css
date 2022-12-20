@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 .rotate img {
-/* Write your rotate transform here */
+transform: rotate(180deg);
 }
 .scale {
   grid-area: scale;
